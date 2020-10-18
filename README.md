@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="happy" title="happy" src="./assets/banner.png" />
+  <img alt="happy" title="happy" src=".images/banner.png" />
 </p>
 
 <h1 align="center">
@@ -10,25 +10,25 @@
   <a href="https://github.com/MaiiconDouglas/Happy">
     <img
       alt="GitHub language count"
-      src="https://img.shields.io/github/languages/count/Bonizario/happy?color=29B6D1"
+      src="https://img.shields.io/github/languages/count/MaiiconDouglas/happy?color=29B6D1"
     />
   </a>
 
   <a href="https://github.com/MaiiconDouglas/Happy">
     <img
       alt="Repository size"
-      src="https://img.shields.io/github/repo-size/bonizario/happy?color=29B6D1"
+      src="https://img.shields.io/github/repo-size/MaiiconDouglas/happy?color=29B6D1"
     />
   </a>
 
-  <a href="https://www.linkedin.com/in/gabriel-bonizario/">
+  <a href="https://www.linkedin.com/in/maiconndouglas/">
     <img
       alt="Linkedin"
-      src="https://img.shields.io/badge/Linkedin-gabriel--bonizario-29B6D1?style=flat-square&logo=Linkedin&logoColor=white"
+      src="https://img.shields.io/badge/Linkedin-MaiiconDouglas-29B6D1?style=flat-square&logo=Linkedin&logoColor=white"
     />
   </a>
 
-  <a href="https://github.com/MaiiconDouglas/Happycommits/master">
+  <a href="https://github.com/MaiiconDouglas/Happy/commits/master">
     <img
       alt="GitHub last commit"
       src="https://img.shields.io/github/last-commit/bonizario/happy?color=29B6D1"
@@ -38,7 +38,7 @@
   <a href="https://github.com/MaiiconDouglas/Happyblob/master/LICENSE">
     <img
       alt="License"
-      src="https://img.shields.io/github/license/bonizario/happy?color=FFD666"
+      src="https://img.shields.io/github/license/MaiiconDouglas/happy?color=FFD666"
     />
   </a>
 </p>
