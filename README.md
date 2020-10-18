@@ -7,14 +7,14 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/Bonizario/happy/">
+  <a href="https://github.com/MaiiconDouglas/Happy">
     <img
       alt="GitHub language count"
       src="https://img.shields.io/github/languages/count/Bonizario/happy?color=29B6D1"
     />
   </a>
 
-  <a href="https://github.com/Bonizario/happy/">
+  <a href="https://github.com/MaiiconDouglas/Happy">
     <img
       alt="Repository size"
       src="https://img.shields.io/github/repo-size/bonizario/happy?color=29B6D1"
@@ -28,14 +28,14 @@
     />
   </a>
 
-  <a href="https://github.com/bonizario/happy/commits/master">
+  <a href="https://github.com/MaiiconDouglas/Happycommits/master">
     <img
       alt="GitHub last commit"
       src="https://img.shields.io/github/last-commit/bonizario/happy?color=29B6D1"
     />
   </a>
 
-  <a href="https://github.com/Bonizario/happy/blob/master/LICENSE">
+  <a href="https://github.com/MaiiconDouglas/Happyblob/master/LICENSE">
     <img
       alt="License"
       src="https://img.shields.io/github/license/bonizario/happy?color=FFD666"
@@ -86,7 +86,7 @@ Para clonar esse repositório pelo terminal, é necessário possuir o [Git](http
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/Bonizario/happy.git
+$ git clone https://github.com/MaiiconDouglas/Happy.git
 
 # Entre na pasta do projeto
 $ cd happy
@@ -167,16 +167,16 @@ _Caso tenha alguma dúvida, confira este [guia de como contribuir no GitHub](htt
 
 ## 📝 License
 
-Esse projeto está sob a licença MIT. Consulte [LICENSE](https://github.com/Bonizario/happy/blob/master/LICENSE) para mais informações.
+Esse projeto está sob a licença MIT. Consulte [LICENSE](https://github.com/MaiiconDouglas/Happy/blob/master/LICENSE) para mais informações.
 
 <br />
 
 ## 📮 Entre em contato
 
-**Linkedin**: https://www.linkedin.com/in/gabriel-bonizario/
+**Linkedin**: https://www.linkedin.com/in/maiconndouglas/
 
 <br />
 
 ---
 
-Desenvolvido por **Gabriel Bonizário** 👋🏻
+Desenvolvido por **Maicon Douglas** 👋🏻 
