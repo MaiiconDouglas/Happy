@@ -1,44 +1,182 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="happy" title="happy" src="./assets/banner.png" />
+</p>
 
-## Available Scripts
+<h1 align="center">
+  Leve felicidade para o mundo
+</h1>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="https://github.com/Bonizario/happy/">
+    <img
+      alt="GitHub language count"
+      src="https://img.shields.io/github/languages/count/Bonizario/happy?color=29B6D1"
+    />
+  </a>
 
-### `yarn start`
+  <a href="https://github.com/Bonizario/happy/">
+    <img
+      alt="Repository size"
+      src="https://img.shields.io/github/repo-size/bonizario/happy?color=29B6D1"
+    />
+  </a>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <a href="https://www.linkedin.com/in/gabriel-bonizario/">
+    <img
+      alt="Linkedin"
+      src="https://img.shields.io/badge/Linkedin-gabriel--bonizario-29B6D1?style=flat-square&logo=Linkedin&logoColor=white"
+    />
+  </a>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <a href="https://github.com/bonizario/happy/commits/master">
+    <img
+      alt="GitHub last commit"
+      src="https://img.shields.io/github/last-commit/bonizario/happy?color=29B6D1"
+    />
+  </a>
 
-### `yarn test`
+  <a href="https://github.com/Bonizario/happy/blob/master/LICENSE">
+    <img
+      alt="License"
+      src="https://img.shields.io/github/license/bonizario/happy?color=FFD666"
+    />
+  </a>
+</p>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎉 Sobre
 
-### `yarn build`
+**happy** é uma plataforma que ajuda pessoas a encontrarem orfanatos próximos para levar felicidade a milhares de crianças.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Este projeto foi desenvolvido usando Node.js, ReactJS e React Native, durante a 3ª edição da Next Level Week ministrada pela [Rocketseat](https://rocketseat.com.br/).
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<br />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎨 Layout
 
-### `yarn eject`
+Os layouts da aplicação estão disponíveis no Figma: [Web](http://figma.com/file/X5vjP69Y0H9C8aa5QqorzH/Happy-Web), [Mobile](https://www.figma.com/file/5lunlSxDHchxU312BJntQL/Happy-Mobile).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<br />
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔌 Tecnologias
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Front-end
+- [React](https://reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [Styled Components](https://styled-components.com/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Expo](https://expo.io/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Back-end
+- [Node.js](https://nodejs.org/pt-br/)
+- [Express](https://github.com/expressjs/express)
+- [TypeORM](https://typeorm.io/)
+- [Typescript](https://www.typescriptlang.org/)
 
-## Learn More
+### Ambiente de desenvolvimento
+- [VS Code](https://code.visualstudio.com/)
+- [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://prettier.io/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤔 Como executar
+
+Para clonar esse repositório pelo terminal, é necessário possuir o [Git](https://git-scm.com/) instalado em sua máquina.
+
+```bash
+# Clone o repositório
+$ git clone https://github.com/Bonizario/happy.git
+
+# Entre na pasta do projeto
+$ cd happy
+```
+
+<br />
+
+Para instalar as dependências e executar o projeto, é necessário possuir o [Node.js](https://nodejs.org/pt-br/) instalado em sua máquina, bem como um gerenciador de pacotes: [Yarn](https://yarnpkg.com/) ou [npm](https://www.npmjs.com/).
+
+<table style="width:100%;">
+<tr>
+<td align="center"> <strong>Usando Yarn</strong> </td> <td align="center"> <strong>Usando npm</strong> </td>
+</tr>
+<tr>
+<td>
+
+
+```bash
+# Instale as dependências do back-end
+$ cd backend && yarn
+
+# Execute as migrations do TypeORM
+$ yarn typeorm migration:run
+
+# Execute a api em Node.js
+$ yarn dev:server
+
+# Instale as dependências do front-end web
+$ cd ../web && yarn
+
+# Execute o front-end em ReactJS
+$ yarn start
+```
+
+
+</td>
+<td>
+
+
+```bash
+# Instale as dependências do back-end
+$ cd backend && npm install
+
+# Execute as migrations do TypeORM
+$ npm run typeorm migration:run
+
+# Execute a api em Node.js
+$ npm run dev:server
+
+# Instale as dependências do front-end web
+$ cd ../web && npm install
+
+# Execute o front-end em ReactJS
+$ npm start
+```
+
+
+</td>
+</table>
+
+<br />
+
+## 💭 Como contribuir
+
+Caso queira contribuir, seja corrigindo bugs, adicionando comentários ou novas features, você pode seguir o seguinte tutorial:
+
+- Faça um **[fork](https://help.github.com/pt/github/getting-started-with-github/fork-a-repo)** desse repositório
+- **[Clone](https://help.github.com/pt/github/creating-cloning-and-archiving-repositories/cloning-a-repository)** o repositório que você fez o fork em seu computador
+- Crie uma branch com a sua feature: `git checkout -b minha-alteracao`
+- Envie suas alterações para a _staging area_: `git add .`
+- Faça um commit contando o que você fez: `git commit -m "feat: minha nova alteracao!"`
+- Faça um push para a sua branch: `git push origin minha-alteracao`
+- Agora é só abrir uma _pull request_
+
+_Caso tenha alguma dúvida, confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions/blob/master/translations/README.pt_br.md) :)_
+
+<br />
+
+## 📝 License
+
+Esse projeto está sob a licença MIT. Consulte [LICENSE](https://github.com/Bonizario/happy/blob/master/LICENSE) para mais informações.
+
+<br />
+
+## 📮 Entre em contato
+
+**Linkedin**: https://www.linkedin.com/in/gabriel-bonizario/
+
+<br />
+
+---
+
+Desenvolvido por **Gabriel Bonizário** 👋🏻
